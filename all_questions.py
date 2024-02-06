@@ -83,7 +83,7 @@ def question2():
     # Infogain
     answer["(b) x <= 0.2"] = 0.608771
     answer["(b) x <= 0.7"] = 1.165475
-    answer["(b) y <= 0.6"] = 0.
+    answer["(b) y <= 0.6"] = 1.150953
 
     # choose one of 'x=0.2', 'x=0.7', or 'x=0.6'
     answer["(c) attribute"] = ""  
