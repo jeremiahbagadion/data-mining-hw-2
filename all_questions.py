@@ -108,7 +108,7 @@ def question3():
     # float
     answer["(b) Gini, ID"] = 0.95
     answer["(c) Gini, Gender"] = 0.5
-    answer["(d) Gini, Car type"] = 0.
+    answer["(d) Gini, Car type"] = 0.639999
     answer["(e) Gini, Shirt type"] = 0.
 
     answer["(f) attr for splitting"] = ""
