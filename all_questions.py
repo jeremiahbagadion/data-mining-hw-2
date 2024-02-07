@@ -135,45 +135,45 @@ def question4():
     #  'quantitative', 'interval', 'ratio'
     # If you have a choice between 'binary' and 'discrete', choose 'binary'
 
-    answer["a"] = []
+    answer["a"] = ['binary', 'qualitative', 'nominal']
 
     # Explain if there is more than one interpretation. Repeat for the other questions. At least five words that form a sentence.
     answer["a: explain"] = ""
 
-    answer["b"] = []
+    answer["b"] = ['continuous', 'quantitative', 'ratio']
     answer["b: explain"] = ""
 
-    answer["c"] = []
-    answer["c: explain"] = ""
+    answer["c"] = ['discrete', 'qualittive', 'ordinal']
+    answer["c: explain"] = "There could be some ambiguity. For instance, if people rate brightness on a numerical scale (like 1 to 10), it could be argued that it's quantitative (as it uses numbers)"
 
-    answer["d"] = []
-    answer["d: explain"] = ""
+    answer["d"] = ['continuous', 'quantitative', 'interval']
+    answer["d: explain"] = "Angles should be considered as interval or ratio. Some might argue for ratio since 0 degrees can be seen as the absence of an angle."
 
-    answer["e"] = []
+    answer["e"] = ['discrete', 'qualitative', 'ordinal']
     answer["e: explain"] = ""
 
-    answer["f"] = []
+    answer["f"] = ['continuous', 'quantitative', 'ratio']
     answer["f: explain"] = ""
 
-    answer["g"] = []
+    answer["g"] = ['discrete', 'quantitative', 'ratio']
     answer["g: explain"] = ""
 
-    answer["h"] = []
+    answer["h"] = ['discrete', 'qualitative', 'nominal']
     answer["h: explain"] = ""
 
-    answer["i"] = []
+    answer["i"] = ['discrete', 'qualitative', 'ordinal']
     answer["i: explain"] = ""
 
-    answer["j"] = []
+    answer["j"] = ['discrete', 'qualitative', 'ordinal']
     answer["j: explain"] = ""
 
-    answer["k"] = []
+    answer["k"] = ['continuous', 'quantitative', 'ratio']
     answer["k: explain"] = ""
 
-    answer["l"] = []
+    answer["l"] = ['continuous', 'quantitative', 'ratio']
     answer["l: explain"] = ""
 
-    answer["m"] = []
+    answer["m"] = ['discrete', 'qualitative', 'nominal']
     answer["m: explain"] = ""
 
     return answer
