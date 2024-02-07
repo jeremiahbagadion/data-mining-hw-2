@@ -111,10 +111,10 @@ def question3():
     answer["(d) Gini, Car type"] = 0.639999
     answer["(e) Gini, Shirt type"] = 0.
 
-    answer["(f) attr for splitting"] = ""
+    answer["(f) attr for splitting"] = "Gender"
 
     # Explanatory text string
-    answer["(f) explain choice"] = ""
+    answer["(f) explain choice"] = "its Gini index is high, indicating maximum impurity for a binary attribute, it's lower than the Gini index for Car Type, suggesting it might lead to more homogenous subsets. Additionally, since Gender is a binary attribute, it simplifies the initial split and can often lead to a more balanced tree structure."
 
     return answer
 
