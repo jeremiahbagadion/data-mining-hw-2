@@ -188,18 +188,18 @@ def question5():
     # Read appropriate section of book chapter 3
 
     # string: one of 'Model 1' or 'Model 2'
-    explain["a"] = ""
-    explain["a explain"] = ""
+    explain["a"] = "Model 2"
+    explain["a explain"] = "Has a lower accuracy on the training set but its accuracy on the testing set is quite close to its training accuracy. This suggests that the model has a better balance between bias and variance, meaning it's less overfit to the training data and is likely to generalize better to unseen data."
 
     # string: one of 'Model 1' or 'Model 2'
-    explain["b"] = ""
-    explain["b explain"] = ""
+    explain["b"] = "Model 2"
+    explain["b explain"] = "Model 2 might still be preferable despite its slightly lower overall accuracy, because it's less likely to suffer from overfitting and may perform better with completely unseen data in the future."
 
-    explain["c similarity"] = ""
-    explain["c similarity explain"] = ""
+    explain["c similarity"] = "Penalizing Complexity"
+    explain["c similarity explain"] = "They both aim to avoid overly complex trees that fit the noise in the training data, rather than the underlying distribution. They both effectively add a regularization term to the loss function that increases with the complexity of the tree."
 
-    explain["c difference"] = ""
-    explain["c difference explain"] = ""
+    explain["c difference"] = "Method of Penalization"
+    explain["c difference explain"] = "MDL is based on information theory and seeks to minimize the combined cost of the model and the data given the model. In decision trees, this often translates to preferring smaller trees as they typically require fewer bits to describe than larger trees. Pessimistic Error Estimate adjusts the error rate of a tree on the training data by adding a penalty that increases with the number of leaves in the tree."
 
     return explain
 
