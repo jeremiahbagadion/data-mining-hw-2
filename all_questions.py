@@ -19,9 +19,34 @@ def question1():
     """
     answer = False
     answer = {}
-    level1 = {}
-    level2_left = {}
-    level2_right = {}
+    level1 = {"smoking": 1,
+             "smoking_info_gain": 0.278,
+             "cough": -1,
+             "cough_info_gain": -1,
+             "radon": -1,
+             "radon_info_gain": -1,
+             "weight_loss": -1,
+             "weight_loss_info_gain": -1,
+             }
+    level2_left = {"smoking": -1,
+                "smoking_info_gain": -1,
+                "cough": 1,
+                "cough_info_gain": 0.035,
+                "radon": -1,
+                "radon_info_gain": -1,
+                "weight_loss": -1,
+                "weight_loss_info_gain": -1,
+                }
+    
+    level2_right = {"smoking": -1,
+                    "smoking_info_gain": -1,
+                    "cough": -1,
+                    "cough_info_gain": -1,
+                    "radon": 1,
+                    "radon_info_gain": 0.236,
+                    "weight_loss": -1,
+                    "weight_loss_info_gain": -1,
+                   }
 
     level1["smoking"] = 1.
     level1["smoking_info_gain"] = 0.2780719
