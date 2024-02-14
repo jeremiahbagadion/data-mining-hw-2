@@ -69,6 +69,14 @@ def question1():
     # answer["training_error"] = training_error
     answer["training_error"] = 0.0
 
+    tree = u.BinaryTree("Tobacco Smoking?")
+    A = tree.insert_left("Chronic Cough?")
+    B = tree.insert_right("Radon Exposure?")
+    A.insert_left("yes")
+    A.insert_right("no")
+    B.insert_left("yes")
+    B.insert_right("no")
+
     
 
     return answer
