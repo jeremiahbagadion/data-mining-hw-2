@@ -122,7 +122,7 @@ def question2():
     answer["(b) y <= 0.6"] = 0.385102388
 
     # choose one of 'x=0.2', 'x=0.7', or 'x=0.6'
-    answer["(c) attribute"] = 'x=0.6'
+    answer["(c) attribute"] = 'x=0.2'
 
     # Use the Binary Tree structure to construct the tree
     # Answer is an instance of BinaryTree
