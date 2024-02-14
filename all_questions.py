@@ -126,7 +126,11 @@ def question2():
 
     # Use the Binary Tree structure to construct the tree
     # Answer is an instance of BinaryTree
-    tree = u.BinaryTree("Root")
+    tree = u.BinaryTree("y <= 0.6")
+    
+
+
+
     answer["(d) full decision tree"] = tree
 
     return answer
