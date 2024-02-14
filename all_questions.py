@@ -20,7 +20,7 @@ def question1():
     answer = False
     answer = {}
     level1 = {"smoking": 1,
-             "smoking_info_gain": 0.278,
+             "smoking_info_gain": 0.2780719,
              "cough": -1,
              "cough_info_gain": -1,
              "radon": -1,
@@ -31,7 +31,7 @@ def question1():
     level2_left = {"smoking": -1,
                 "smoking_info_gain": -1,
                 "cough": 1,
-                "cough_info_gain": 0.035,
+                "cough_info_gain": 0.03485155,
                 "radon": -1,
                 "radon_info_gain": -1,
                 "weight_loss": -1,
@@ -43,7 +43,7 @@ def question1():
                     "cough": -1,
                     "cough_info_gain": -1,
                     "radon": 1,
-                    "radon_info_gain": 0.236,
+                    "radon_info_gain": 0.23645279,
                     "weight_loss": -1,
                     "weight_loss_info_gain": -1,
                    }
@@ -89,18 +89,19 @@ def question1():
 
     # Fill up `construct_tree``
     # tree, training_error = construct_tree()
-    tree = u.BinaryTree("root")  # MUST STILL CREATE THE TREE *****
-    answer["tree"] = tree  # use the Tree structure
-    # answer["training_error"] = training_error
-    answer["training_error"] = 0.0
+    #tree = u.BinaryTree("root")  # MUST STILL CREATE THE TREE *****
 
-    tree = u.BinaryTree("Tobacco Smoking?")
-    A = tree.insert_left("Chronic Cough?")
-    B = tree.insert_right("Radon Exposure?")
+    tree = u.BinaryTree("smoking")
+    A = tree.insert_left("cough")
+    B = tree.insert_right("radon")
     A.insert_left("yes")
     A.insert_right("no")
     B.insert_left("yes")
     B.insert_right("no")
+    
+    answer["tree"] = tree  # use the Tree structure
+    # answer["training_error"] = training_error
+    answer["training_error"] = 0.0
 
     
 
