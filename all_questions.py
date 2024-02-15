@@ -294,7 +294,7 @@ def question7():
     answer["b, info gain, Handedness"] =  0.531004
 
     # string: "ID" or "Handedness"
-    answer["c, which attrib"] = "ID"
+    answer["c, which attrib"] = "Handedness"
 
     # answer is a float
     answer["d, gain ratio, ID"] = 0.231378
