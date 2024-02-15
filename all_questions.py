@@ -189,10 +189,10 @@ def question4():
     answer["a"] = ['binary', 'qualitative', 'nominal']
 
     # Explain if there is more than one interpretation. Repeat for the other questions. At least five words that form a sentence.
-    answer["a: explain"] = ""
+    answer["a: explain"] = "This attribute has only two categories (AM or PM), making it binary. Qualitative (Nominal): This classification is based on naming or categorization without any inherent order. AM and PM do not imply any order in terms of value "
 
     answer["b"] = ['continuous', 'quantitative', 'ratio']
-    answer["b: explain"] = ""
+    answer["b: explain"] = " Brightness can vary over a continuous range of values. Quantitative (Ratio): This classification is because brightness measurements have a true zero point (absolute darkness) and can be measured on a scale where the relationships between values are meaningful."
 
     answer["c"] = ['discrete', 'qualitative', 'ordinal']
     answer["c: explain"] = "There could be some ambiguity. For instance, if people rate brightness on a numerical scale (like 1 to 10), it could be argued that it's quantitative (as it uses numbers)"
@@ -201,31 +201,31 @@ def question4():
     answer["d: explain"] = "Angles should be considered as interval or ratio. Some might argue for ratio since 0 degrees can be seen as the absence of an angle."
 
     answer["e"] = ['discrete', 'qualitative', 'ordinal']
-    answer["e: explain"] = ""
+    answer["e: explain"] = "Discrete: This attribute has three distinct categories (Bronze, Silver, Gold), with no intermediate values possible between these categories. Qualitative (Ordinal): This classification is because the medals represent an ordered ranking of achievement."
 
     answer["f"] = ['continuous', 'quantitative', 'ratio']
-    answer["f: explain"] = ""
+    answer["f: explain"] = "Continuous: Height above sea level can vary over a continuous range. Quantitative (Ratio): This classification is because height measurements have a true zero point (sea level)"
 
     answer["g"] = ['discrete', 'quantitative', 'ratio']
-    answer["g: explain"] = ""
+    answer["g: explain"] = "Discrete: This attribute is counted in whole numbers (you can't have a fraction of a patient). Quantitative (Ratio): This classification is because the number of patients is a countable quantity that has a true zero point (no patients)."
 
     answer["h"] = ['discrete', 'qualitative', 'nominal']
-    answer["h: explain"] = ""
+    answer["h: explain"] = "Discrete: ISBNs are discrete because they represent specific, distinct codes assigned to individual book editions and formats. Qualitative (Nominal): ISBNs are nominal as they categorize books into unique identifiers without implying any order or ranking."
 
     answer["i"] = ['discrete', 'qualitative', 'ordinal']
-    answer["i: explain"] = ""
+    answer["i: explain"] = "Discrete: This attribute is discrete because it consists of three distinct categories without intermediate values. Qualitative (Ordinal): These categories can be viewed as ordinal because they imply an order in terms of the ability to pass light."
 
     answer["j"] = ['discrete', 'qualitative', 'ordinal']
-    answer["j: explain"] = ""
+    answer["j: explain"] = "Discrete: Military ranks are discrete because they are distinct and separate positions within a hierarchical structure. Qualitative (Ordinal): Military ranks are ordinal because they establish a clear order or hierarchy of authority."
 
     answer["k"] = ['continuous', 'quantitative', 'ratio']
-    answer["k: explain"] = ""
+    answer["k: explain"] = "Continuous: This attribute is continuous because it can vary over a continuous range, including fractional distances. Quantitative (Ratio): Distance measurements have a true zero point (being at the center of campus)"
 
     answer["l"] = ['continuous', 'quantitative', 'ratio']
-    answer["l: explain"] = ""
+    answer["l: explain"] = "Continuous: This attribute is continuous because it can take on any value within a range. Quantitative (Ratio): Density measurements have a true zero point"
 
     answer["m"] = ['discrete', 'qualitative', 'nominal']
-    answer["m: explain"] = ""
+    answer["m: explain"] = "Discrete: These numbers are discrete because they represent distinct, separate identifiers. Qualitative (Nominal): Coat check numbers are nominal because they serve as labels or names for identifying and claiming coats."
 
     return answer
 
