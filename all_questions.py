@@ -126,18 +126,21 @@ def question2():
 
     # Use the Binary Tree structure to construct the tree
     # Answer is an instance of BinaryTree
-    tree = u.BinaryTree("y <= 0.6")
-    tree.insert_left("y <= 0.6", "x <= 0.7")
-    tree.insert_right("y <= 0.6", "C")
-
-    tree.insert_left("x <= 0.7", "B")
-    tree.insert_right("x <= 0.7", "y <= 0.8")
-
-    tree.insert_left("y <= 0.8", "A")
-    tree.insert_right("y <= 0.8", "C")
-    
-
-
+    tree = u.BinaryTree("x <= 0.2")
+    A = tree.insert_left("y <= 0.6")
+    B = tree.insert_right("x <= 0.7")
+    A1 = A.insert_left("y <= 0.3")
+    A2 = A.insert_right("y <= 0.8")
+    B1 = B.insert_left("y <= 0.6")
+    B2 = B.insert_right("y <= 0.3")
+    A1.insert_left("C")
+    A1.insert_right("B")
+    A2.insert_left("B")
+    A2.insert_right("C")
+    B1.insert_left("A")
+    B1.insert_right("C")
+    B2.insert_left("C")
+    B2.insert_right("A")
 
     answer["(d) full decision tree"] = tree
 
