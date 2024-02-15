@@ -123,13 +123,13 @@ def question2():
     answer["(c) attribute"] = 'x <= 0.2'
     # Use the Binary Tree structure to construct the tree
     # Answer is an instance of BinaryTree
-    tree = u.BinaryTree("x < 0.2")
-    A = tree.insert_left("y < 0.6")
-    B = tree.insert_right("x < 0.7")
-    A1 = A.insert_left("y < 0.3")
-    A2 = A.insert_right("y < 0.8")
-    B1 = B.insert_left("y < 0.6")
-    B2 = B.insert_right("y < 0.3")
+    tree = u.BinaryTree("x <= 0.2")
+    A = tree.insert_left("y <= 0.6")
+    B = tree.insert_right("x <= 0.7")
+    A1 = A.insert_left("y <= 0.3")
+    A2 = A.insert_right("y <= 0.8")
+    B1 = B.insert_left("y <= 0.6")
+    B2 = B.insert_right("y <= 0.3")
     A1.insert_left("C")
     A1.insert_right("B")
     A2.insert_left("B")
