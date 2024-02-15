@@ -194,7 +194,7 @@ def question4():
     answer["b"] = ['continuous', 'quantitative', 'ratio']
     answer["b: explain"] = ""
 
-    answer["c"] = ['discrete', 'qualittive', 'ordinal']
+    answer["c"] = ['discrete', 'qualitative', 'ordinal']
     answer["c: explain"] = "There could be some ambiguity. For instance, if people rate brightness on a numerical scale (like 1 to 10), it could be argued that it's quantitative (as it uses numbers)"
 
     answer["d"] = ['continuous', 'quantitative', 'interval']
