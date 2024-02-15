@@ -157,7 +157,7 @@ def question3():
     answer["(a) Gini, overall"] = 0.0
 
     # float
-    answer["(b) Gini, ID"] = 0.95
+    answer["(b) Gini, ID"] = 0.0
     answer["(c) Gini, Gender"] = 0.5
     answer["(d) Gini, Car type"] = 0.639999
     answer["(e) Gini, Shirt type"] = 0.
