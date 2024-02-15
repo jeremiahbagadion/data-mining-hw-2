@@ -295,7 +295,7 @@ def question7():
     answer = {}
 
     # float
-    answer["a, info gain, ID"] = 1
+    answer["a, info gain, ID"] = 1.0
     answer["b, info gain, Handedness"] =  0.531004
 
     # string: "ID" or "Handedness"
