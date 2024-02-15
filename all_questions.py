@@ -159,13 +159,13 @@ def question3():
     # float
     answer["(b) Gini, ID"] = 0.0
     answer["(c) Gini, Gender"] = 0.48
-    answer["(d) Gini, Car type"] = 0.639999
-    answer["(e) Gini, Shirt type"] = 0.
+    answer["(d) Gini, Car type"] = 0.16250
+    answer["(e) Gini, Shirt type"] = 0.4914285
 
-    answer["(f) attr for splitting"] = "Gender"
+    answer["(f) attr for splitting"] = "Car type"
 
     # Explanatory text string
-    answer["(f) explain choice"] = "its Gini index is high, indicating maximum impurity for a binary attribute, it's lower than the Gini index for Car Type, suggesting it might lead to more homogenous subsets. Additionally, since Gender is a binary attribute, it simplifies the initial split and can often lead to a more balanced tree structure."
+    answer["(f) explain choice"] = "The 'Car Type' attribute has the lowest Gini index (0.1625), indicating that it creates the purest splits among the attributes considered. Therefore, 'Car Type' would be the best choice for splitting at the root node as it best separates the classes into homogeneous subsets."
 
     return answer
 
