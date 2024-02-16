@@ -1,0 +1,21 @@
+customer ID,Gender,car type,shirt size,class
+1,m,Family,small,C0
+2,m,Sports,medium,C0
+3,m,Sports,medium,C0
+4,m,Sports,large,C0
+5,m,Sports,extra large,C0
+6,m,Sports,extra large,C0
+7,f,Sports,small,C0
+8,f,Sports,small,C0
+9,f,Sports,medium,C0
+10,f,Luxury,large,C0
+11,m,Family,large,C1
+12,m,Family,extra large,C1
+13,m,Family,medium,C1
+14,m,Luxury,extra large,C1
+15,f,Luxury,small,C1
+16,f,Luxury,small,C1
+17,f,Luxury,medium,C1
+18,f,Luxury,medium,C1
+19,f,Luxury,medium,C1
+20,f,Luxury,large,C1
