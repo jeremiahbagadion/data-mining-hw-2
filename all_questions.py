@@ -261,7 +261,7 @@ def question6():
     # The value could also be "A" or "B" if it is a leaf
     answer["a, level 1"] = "x <= 0.2"
     answer["a, level 2, right"] ="A"
-    answer["a, level 2, left"] = "y <= 0.7"
+    answer["a, level 2, left"] = "y < 0.7"
     answer["a, level 3, left"] = "B"
     answer["a, level 3, right"] = "A"
 
