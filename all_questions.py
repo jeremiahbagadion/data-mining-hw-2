@@ -8,7 +8,7 @@ import utils as u
 # See the file INSTRUCTIONS.md
 # ----------------------------------------------------------------------
 
-
+#https://chat.openai.com/share/ce10eabd-816c-48c1-beaf-76585e22c0dd
 def question1():
     """
     Note 1: Each attribute can appear as a node in the tree AT MOST once.
